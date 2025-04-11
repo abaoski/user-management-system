@@ -1,17 +1,17 @@
 # User-Management-System
  > IT-INTPROG32- 16543
 
-**Members:** 
-## Group Leader : Christopher Aron P. Abao
+#**Members:** 
+## **Group Leader : Christopher Aron P. Abao**
    - Backend-authorization-crud
    - Tester-security-testing
-### Shekainah P. Gaceta
+### **Shekainah P. Gaceta**
    - Frontend-signup-auth
    - Documentation
-### Jun-del S. Patuasic
+### **Jun-del S. Patuasic**
    - Frontend-profile-admin-fake-backend
    - Backend-signup-auth
-### Andrian S. Balberos
+### **Andrian S. Balberos**
    - Tester-fucntional-testing
    - Documentation
 
