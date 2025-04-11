@@ -7,11 +7,9 @@
    - Tester-security-testing
 ### **Shekainah P. Gaceta**
    - Frontend-signup-auth
-   - Documentation
 ### **Jun-del S. Patuasic**
    - Frontend-profile-admin-fake-backend
    - Backend-signup-auth
 ### **Andrian S. Balberos**
    - Tester-functional-testing
-   - Documentation
 
