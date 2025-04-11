@@ -12,6 +12,6 @@
    - Frontend-profile-admin-fake-backend
    - Backend-signup-auth
 ### **Andrian S. Balberos**
-   - Tester-fucntional-testing
+   - Tester-functional-testing
    - Documentation
 
