@@ -4,16 +4,18 @@
         "port": 3306,
         "user": "root",
         "password": "",
-        "database": "node-mysql-signup-verification-api"
+        "database": "Group_Project_db"
     },
-    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+    "secret": "ea386268-245f-4782-9dcb-3fceae58d070",
     "emailFrom": "info@signup-verification-api.com",
     "smtpOptions": {
         "host": "smtp.ethereal.email",
         "port": 587,
         "auth": {
-            "user": "sidney.batz41@ethereal.email",
-            "pass": "VkNMctUr2JXUXyfsTb"
+            "user": "granville.shanahan@ethereal.email",
+            "pass": "Xn2CtCBrp1scC9Xm9w"
         }
     }
 }
+
+

@@ -12,7 +12,7 @@ function errorHandler(err, req, res, next) {
     }
 
     // log the error for debugging
-    console.error('Error:', err);
+    console.error('Error:', err.name, err.message);
 
     // default to 500 server error
     return res.status(500).json({ message: err.message || 'An unexpected error occurred' });

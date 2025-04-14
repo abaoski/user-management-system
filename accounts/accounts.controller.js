@@ -109,19 +109,6 @@ function verifyEmail(req, res, next) {
         .catch(next);
 }
 
-function forgotPasswordSchema(req, res, next) {
-    const schema = Joi.object({
-        email: Joi.string().email().required()
-    });
-    validateRequest(req, next, schema);
-}
-
-function forgotPassword(req, res, next) {
-    accountService.forgotPassword(req.body, req.get('origin'))
-        .then(() => res.json({ message: 'Please check your email for password reset instructions' }))
-        .catch(next);
-}
-
 function validateResetTokenSchema(req, res, next) {
     const schema = Joi.object({
         token: Joi.string().required()
@@ -132,6 +119,19 @@ function validateResetTokenSchema(req, res, next) {
 function validateResetToken(req, res, next) {
     accountService.validateResetToken(req.body)
         .then(() => res.json({ message: 'Token is valid' }))
+        .catch(next);
+}
+
+function forgotPasswordSchema(req, res, next) {
+    const schema = Joi.object({
+        email: Joi.string().email().required()
+    });
+    validateRequest(req, next, schema);
+}
+
+function forgotPassword(req, res, next) {
+    accountService.forgotPassword(req.body, req.get('origin'))
+        .then(() => res.json({ message: 'Please check your email for password reset instructions' }))
         .catch(next);
 }
 
