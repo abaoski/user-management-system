@@ -29,3 +29,4 @@ function model(sequelize) {
 
     return sequelize.define('refreshToken', attributes, options);
 }
+

@@ -1,3 +1,4 @@
+
 # Node.js + MySQL API - User Management System
 
 API for user management with email verification, authentication, and password reset functionality built with Node.js, Express, and MySQL.
@@ -77,4 +78,3 @@ MIT
    - Backend-signup-auth
 ### **Andrian S. Balberos**
    - Tester-functional-testing
-
