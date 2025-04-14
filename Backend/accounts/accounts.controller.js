@@ -12,7 +12,6 @@ router.post('/refresh-token', refreshToken);
 router.post('/revoke-token', authorize(), revokeTokenSchema, revokeToken);
 router.post('/register', registerSchema, register);
 router.post('/verify-email', verifyEmailSchema, verifyEmail);
-/*
 router.post('/forgot-password', forgotPasswordSchema, forgotPassword);
 router.post('/validate-reset-token', validateResetTokenSchema, validateResetToken);
 router.post('/reset-password', resetPasswordSchema, resetPassword);
@@ -21,7 +20,6 @@ router.get('/:id', authorize(), getById);
 router.post('/', authorize(Role.Admin), createSchema, create);
 router.put('/:id', authorize(), updateSchema, update);
 router.delete('/:id', authorize(), _delete);
-*/
 module.exports = router;
 
 function authenticateSchema(req, res, next) {
@@ -123,7 +121,7 @@ function validateResetToken(req, res, next) {
         .catch(next);
 }
 
-/*
+
 function forgotPasswordSchema(req, res, next) {
     const schema = Joi.object({
         email: Joi.string().email().required()
@@ -228,7 +226,7 @@ function _delete(req, res, next) {
         .then(() => res.json({ message: 'Account deleted successfully' }))
         .catch(next);
 }
-*/
+
 
 // helper functions
 
