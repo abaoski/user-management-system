@@ -48,13 +48,18 @@
 3\. Available features:  
    \- View all users  
 	![image](https://github.com/user-attachments/assets/6ace3848-f9e1-4512-8990-2bfe9c0a8d2a)
-   \- Manage user accounts  
+   \- Manage user accounts 
+   \- Create User
+	![image](https://github.com/user-attachments/assets/7d4382da-14de-403d-a704-efad22270273)
+	![image](https://github.com/user-attachments/assets/a5993374-5f7a-4e32-857c-e9e203a3a60e)
+
+
    \- Edit User  
 	![image](https://github.com/user-attachments/assets/fb5d87a9-7eb0-4486-9c4f-e5c78da821d9)
   
 ![image](https://github.com/user-attachments/assets/332fdd3e-5d65-4e3f-bf24-3189b9ff5e1e)
-  
-      \- Delete User  
+
+   \- Delete
 ![image](https://github.com/user-attachments/assets/05ef4afc-449a-4973-8ee0-34ef5f11dec5)
   
 ![image](https://github.com/user-attachments/assets/24750d63-4e76-4b09-bef4-32cce15b3e14)
@@ -125,12 +130,16 @@ Detailed test results can be found in the Test Cases and Results section below. 
 ![image](https://github.com/user-attachments/assets/e22bbd29-aacc-4bea-a5ad-3e9767a165ae)
   
   3\. Perform user management actions  
-    \- Edit User  
+\- Create User
+   ![image](https://github.com/user-attachments/assets/7d4382da-14de-403d-a704-efad22270273)
+   ![image](https://github.com/user-attachments/assets/a5993374-5f7a-4e32-857c-e9e203a3a60e)
+    
+\- Edit User  
 	![image](https://github.com/user-attachments/assets/0cae394d-ebf5-48d0-a659-39a6218f814e)
   
 ![image](https://github.com/user-attachments/assets/1f9d2d3e-456c-4ae0-82db-243953606a32)
   
-         \- Delete User  
+  \- Delete User  
 ![image](https://github.com/user-attachments/assets/da88543c-b503-44de-92c4-22ab3f1fd15d)
 
 
