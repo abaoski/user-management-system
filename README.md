@@ -48,12 +48,9 @@
 3\. Available features:  
    \- View all users  
 	![image](https://github.com/user-attachments/assets/6ace3848-f9e1-4512-8990-2bfe9c0a8d2a)
-   \- Manage user accounts 
    \- Create User
 	![image](https://github.com/user-attachments/assets/7d4382da-14de-403d-a704-efad22270273)
 	![image](https://github.com/user-attachments/assets/a5993374-5f7a-4e32-857c-e9e203a3a60e)
-
-
    \- Edit User  
 	![image](https://github.com/user-attachments/assets/fb5d87a9-7eb0-4486-9c4f-e5c78da821d9)
   
